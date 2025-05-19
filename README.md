@@ -50,4 +50,8 @@ ________________________________________
 •	This gave me a rough but useful estimate of their lifetime value.
 •	I filtered the enabled_at not to be NULL
 •	I then sorted the results from highest to lowest to see which customers were the most valuable.
+________________________________________
+Challenges
+One major challenge I had was of the fact that I don't use MySQL,I use MSSQL and PostgreSQL. I thought i could just adjust the database query to MSSQL syntax and all, but then it dawned on me it would take forever(LOL) and it would affect my assessment. I had to install Mysql and work with it. It was quite easy to navigate, ran the database query and it worked perfectly well. Writing my queries on Mysql was straight forward too since it's similar to MSSQL and PostgreSQL, just a few minor differences like using CONCAT to merge columns instead of the + sign in MSSQL, the TIMESTAMPDIFF to extract from date instead of DATEDIFF in MSSQL. 
+Another challenge i encountered was knowing the right columns to use at every point in time, but i was able to tackle this by critically checking and understanding of similar columns to be used and better understanding of each assessment question and the hints provided and expected output was quite helpful too
 
