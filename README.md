@@ -1,7 +1,7 @@
 # DataAnalytics-Assessment
 1. Assessment_Q1 - High-Value Customers with Multiple Products
 •	The first thing I did was to identify the relationships between the three tables: users_customuser, savings_savingsaccount, and plans_plan.
-•	So I discovered that there is owner_id in both savings_savingsaccount and plans_plan, which links to the id column in users_customuser. This owner_id acts like a bridge connecting a customer to their accounts.
+•	So I discovered that there is owner_id in both savings_savingsaccount and plans_plan, which links to the id column in users_customuser. This owner_id acts like a bridge connecting a customer to their accounts
 •	Knowing this, I used Inner joins to merge the tables together so I could work with them in a single query.
 •	I renamed each table for simplicity:
 users_customuser as uc,
